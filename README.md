@@ -1,19 +1,34 @@
-# Sylgrin - Modern Responsive Web Application
+# Sylgrin — Modern Responsive Web Application & Accessible Header
 
-Sylgrin is a modern, colorful, mobile-first responsive web application template designed with high accessibility, sleek glassmorphism styling, and premium interactive animations.
+Sylgrin is a modern, colorful, mobile-first responsive web application template designed with high accessibility, sleek styling, and premium interactive animations.
 
-## Features
+This repository features a fully accessible, mobile-first navigation bar implementing professional-grade standards.
 
-- **Mobile-First Design:** Optimized for a seamless viewing experience across all screen sizes (mobile, tablet, and desktop).
-- **Accessible Navigation:** Clean responsive header with standard accessibility attributes (`aria-expanded`, `aria-label`, and keyboard-friendly markup).
-- **Glassmorphism Theme:** Elegant overlay effects with frosted-glass aesthetic and dynamic blur levels.
-- **Micro-Animations:** Fluid, smooth CSS-driven hover animations and background transitions.
-- **Clean Code Structure:** Easy-to-understand single-file structure combining semantic HTML5, localized CSS variables, and lightweight JavaScript.
+## 🚀 Live Demo
 
-## Getting Started
+Check out the live deployment on Vercel:
+👉 **[udbhavcpp.vercel.app](https://udbhavcpp.vercel.app)**
 
-To view and run the application locally, open the [udbhav.html](udbhav.html) file directly in any modern web browser, or serve it using a lightweight local web server.
+---
+
+## ✨ Features
+
+- **Mobile-First Responsive Design:** Baseline mobile layout scaling up to desktop screens via media queries (`min-width: 992px`).
+- **Strict Web Accessibility (A11y):**
+  - Built with semantic elements (`<header>`, `<nav>`, `<ul>`, `<li>`, and `<a>`).
+  - Utilizes a native HTML `<button>` for keyboard-navigable hamburger toggle actions.
+  - Interactive states enhanced with standard ARIA attributes (`aria-expanded`, `aria-controls`, `aria-label`).
+  - Strict visible keyboard focus indicators (`:focus-visible`) and escape key close handling.
+- **Modern Styling & Theming:** Custom dark slate/teal layout themed around the premium **Sylgrin** brand.
+- **Performance Optimized:** Clean code structures using standard CSS variables and hardware-accelerated animations.
+
+---
+
+## 🛠️ Getting Started
+
+To view and run the application locally, open the [index.html](index.html) file directly in any modern web browser.
 
 ### File Structure
-- `udbhav.html`: The main web page containing HTML markup, styles, and functionality.
-- `logo.png` / `ChatGPT Image...`: Project assets.
+- `index.html`: The main web page (Mobile-First Responsive Header assignment & landing presentation).
+- `responsive-header.html`: Backup source code for the responsive header.
+- `udbhav.html`: Existing profile template.
